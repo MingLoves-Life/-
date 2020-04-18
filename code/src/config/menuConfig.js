@@ -56,12 +56,6 @@ const menuList = [
       },
     ]
   },
-
-  {
-    title: '订单管理',
-    key: '/order',
-    icon: 'windows',
-  },
 ]
 
 export default menuList

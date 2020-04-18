@@ -158,8 +158,9 @@ export default class Category extends Component {
     const category = this.category || {}
     const title = parentId === '0' ? '一级分类列表' : (
       <span>
-        <LinkButton onClick={this.showCategorys}>一级分类列表</LinkButton>
-        <Icon type='arrow-right' style={{ marginRight: 5 }} />
+        <LinkButton onClick={this.showCategorys}>
+          <Icon type='arrow-left' style={{ marginRight: 5 }} />一级分类列表
+        </LinkButton>&nbsp;&nbsp;        
         <span>{parentName}</span>
       </span>
     )
